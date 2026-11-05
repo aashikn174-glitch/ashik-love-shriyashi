@@ -1,0 +1,1120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="A little birthday letter for Shriyashi, made with love by Ashik.">
+  <title>For Shriyashi, with love ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Parisienne&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d3554;
+      --muted: #718198;
+      --blue: #a9c5df;
+      --blue-deep: #6f98bd;
+      --blue-pale: #e8f0f7;
+      --paper: #fffefa;
+      --ivory: #f7f5ef;
+      --line: #e7e5df;
+      --rose: #bd7181;
+      --serif: "Playfair Display", Georgia, serif;
+      --sans: "DM Sans", sans-serif;
+      --script: "Parisienne", cursive;
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(ellipse at 9% 13%, rgba(205, 220, 234, .22), transparent 31rem),
+        radial-gradient(ellipse at 96% 55%, rgba(231, 220, 208, .21), transparent 32rem),
+        var(--ivory);
+      font-family: var(--sans);
+      -webkit-font-smoothing: antialiased;
+    }
+    body::before {
+      position: fixed;
+      z-index: -1;
+      inset: 0;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' opacity='.12' filter='url(%23n)'/%3E%3C/svg%3E");
+      content: "";
+      opacity: .14;
+      pointer-events: none;
+    }
+    button, a { font: inherit; }
+    a { color: inherit; }
+    .page-shell { width: min(1120px, calc(100% - 44px)); margin: 0 auto; }
+    .topline {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      padding: 27px 0 17px;
+      color: #78889a;
+      font-size: .68rem;
+      font-weight: 600;
+      letter-spacing: .22em;
+      text-transform: uppercase;
+    }
+    .topline::before, .topline::after {
+      width: 38px;
+      height: 1px;
+      background: #cdd5dc;
+      content: "";
+    }
+    .hero {
+      position: relative;
+      display: grid;
+      min-height: 610px;
+      grid-template-columns: 1.03fr .97fr;
+      align-items: center;
+      overflow: hidden;
+      padding: 42px clamp(25px, 7vw, 88px);
+      border: 1px solid rgba(226, 225, 219, .84);
+      border-radius: 5px;
+      background:
+        radial-gradient(ellipse at 75% 51%, rgba(232, 240, 247, .76), transparent 48%),
+        rgba(255, 254, 250, .88);
+      box-shadow: 0 20px 70px rgba(48, 65, 81, .065);
+    }
+    .hero::after {
+      position: absolute;
+      inset: 12px;
+      border: 1px solid rgba(225, 226, 224, .65);
+      content: "";
+      pointer-events: none;
+    }
+    .hero-copy { position: relative; z-index: 1; padding: 28px 0; }
+    .eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 20px;
+      color: var(--blue-deep);
+      font-size: .71rem;
+      font-weight: 700;
+      letter-spacing: .19em;
+      text-transform: uppercase;
+    }
+    .eyebrow .tiny-heart { color: var(--rose); font-size: .9rem; }
+    h1 {
+      max-width: 550px;
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(3rem, 6.1vw, 5.35rem);
+      font-weight: 500;
+      letter-spacing: -.055em;
+      line-height: 1.06;
+    }
+    h1 span { color: var(--blue-deep); }
+    .hero-subtitle {
+      margin: 22px 0 0;
+      color: #52657d;
+      font-family: var(--serif);
+      font-size: clamp(1.05rem, 2vw, 1.28rem);
+      line-height: 1.65;
+    }
+    .hero-subtitle strong { color: var(--ink); font-weight: 600; }
+    .hero-note {
+      margin: 26px 0 0;
+      color: var(--muted);
+      font-family: var(--script);
+      font-size: 1.65rem;
+    }
+    .open-button {
+      display: inline-flex;
+      min-height: 54px;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      margin-top: 30px;
+      padding: 0 24px;
+      border: 0;
+      border-radius: 3px;
+      color: white;
+      background: var(--ink);
+      box-shadow: 0 9px 22px rgba(29, 53, 84, .16);
+      cursor: pointer;
+      font-size: .91rem;
+      font-weight: 600;
+      transition: background .2s ease, transform .2s ease, box-shadow .2s ease;
+    }
+    .open-button:hover { transform: translateY(-2px); background: #29496d; box-shadow: 0 12px 25px rgba(29, 53, 84, .2); }
+    .open-button:focus-visible { outline: 3px solid #9ab9d6; outline-offset: 4px; }
+    .open-button .button-heart { color: #efc7d0; }
+    .bouquet-wrap {
+      position: relative;
+      display: grid;
+      min-height: 420px;
+      place-items: center;
+    }
+    .bouquet-wrap::before {
+      position: absolute;
+      width: min(370px, 90%);
+      aspect-ratio: 1;
+      border: 1px solid rgba(172, 194, 214, .42);
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(255,255,255,.55), rgba(226,238,247,.08) 69%, transparent 70%);
+      content: "";
+    }
+    .bouquet-svg { position: relative; width: min(390px, 100%); overflow: visible; filter: drop-shadow(0 13px 15px rgba(70, 90, 110, .1)); animation: bouquet-arrive 1.1s both; }
+    .bouquet-sparkle { position: absolute; color: #9ab3cd; animation: shimmer 3s ease-in-out infinite; }
+    .sparkle-one { top: 16%; right: 12%; font-size: 1.5rem; }
+    .sparkle-two { top: 34%; left: 7%; font-size: 1rem; animation-delay: .8s; }
+    .sparkle-three { right: 13%; bottom: 20%; font-size: .9rem; animation-delay: 1.5s; }
+    .hero-sticker {
+      position: absolute;
+      right: 6%;
+      bottom: 12%;
+      display: grid;
+      width: 89px;
+      height: 89px;
+      place-content: center;
+      transform: rotate(9deg);
+      border: 1px solid #d5e0e9;
+      border-radius: 50%;
+      color: #7893ad;
+      background: rgba(255, 254, 250, .84);
+      font-family: var(--script);
+      font-size: 1.25rem;
+      line-height: 1.03;
+      text-align: center;
+    }
+    .hero-sticker span { font-size: 1rem; }
+    .teddy-sticker {
+      position: absolute;
+      bottom: 11%;
+      left: 3%;
+      width: 76px;
+      height: 82px;
+      padding: 7px;
+      transform: rotate(-8deg);
+      border: 1px solid #e1e4df;
+      border-radius: 48% 48% 45% 45%;
+      background: rgba(255, 254, 250, .91);
+      box-shadow: 0 7px 17px rgba(48, 65, 81, .08);
+    }
+    .teddy-sticker svg { display: block; width: 100%; height: 100%; }
+    .scroll-cue {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 9px;
+      padding: 23px 0 54px;
+      color: #8793a1;
+      font-size: .72rem;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+    .scroll-cue span { color: var(--rose); }
+    .letter-reveal { display: none; }
+    .letter-reveal.is-open { display: block; animation: letter-in .75s both; }
+    .section-heading { margin: 0 auto 30px; text-align: center; }
+    .section-heading .eyebrow { margin-bottom: 11px; }
+    h2 {
+      margin: 0;
+      font-family: var(--serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 500;
+      letter-spacing: -.035em;
+      line-height: 1.2;
+    }
+    .heading-flourish { margin-top: 12px; color: var(--blue-deep); letter-spacing: .55em; }
+    .letter-paper {
+      position: relative;
+      width: min(790px, 100%);
+      margin: 0 auto;
+      padding: clamp(27px, 6vw, 63px) clamp(24px, 8vw, 86px);
+      border: 1px solid #e8e5dd;
+      background:
+        repeating-linear-gradient(to bottom, transparent 0, transparent 39px, rgba(173, 194, 211, .13) 40px),
+        var(--paper);
+      box-shadow: 0 17px 50px rgba(50, 66, 83, .07);
+    }
+    .letter-paper::before, .letter-paper::after {
+      position: absolute;
+      top: 12px;
+      width: 31px;
+      height: 31px;
+      border-top: 1px solid #b9c9d8;
+      content: "";
+    }
+    .letter-paper::before { left: 12px; border-left: 1px solid #b9c9d8; }
+    .letter-paper::after { right: 12px; border-right: 1px solid #b9c9d8; }
+    .letter-body {
+      color: #2e4561;
+      font-size: clamp(.98rem, 1.4vw, 1.08rem);
+      line-height: 1.96;
+    }
+    .letter-body p { margin: 0 0 21px; }
+    .letter-body p:last-child { margin-bottom: 0; }
+    .letter-body .salutation {
+      margin-bottom: 17px;
+      color: var(--blue-deep);
+      font-family: var(--script);
+      font-size: 2rem;
+      line-height: 1.3;
+    }
+    .letter-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 13px;
+      margin: 56px 0;
+      color: var(--rose);
+      font-size: 1.12rem;
+    }
+    .letter-divider::before, .letter-divider::after { width: 62px; height: 1px; background: #d7dce0; content: ""; }
+    .english-letter { padding-top: 4px; }
+    .english-letter .letter-body { font-family: var(--serif); font-size: clamp(1.03rem, 1.7vw, 1.18rem); line-height: 1.94; }
+    .english-letter .letter-body p { margin-bottom: 22px; }
+    .signature {
+      margin: 14px 0 0;
+      color: var(--blue-deep);
+      font-family: var(--script);
+      font-size: 2.45rem;
+      line-height: 1.5;
+    }
+    .signature strong { display: block; color: var(--ink); font-weight: 400; }
+    .gallery-section { padding: 82px 0 25px; }
+    .gallery-intro { margin: 12px 0 0; color: var(--muted); font-size: .96rem; }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 24px;
+      align-items: start;
+      margin-top: 39px;
+    }
+    .polaroid {
+      margin: 0;
+      padding: 10px 10px 0;
+      background: #fff;
+      box-shadow: 0 11px 29px rgba(44, 58, 73, .13);
+      transition: transform .3s ease, box-shadow .3s ease;
+    }
+    .polaroid:nth-child(1) { transform: rotate(-2.2deg); }
+    .polaroid:nth-child(2) { transform: rotate(1.7deg) translateY(13px); }
+    .polaroid:nth-child(3) { transform: rotate(-1.3deg); }
+    .polaroid:nth-child(4) { transform: rotate(2deg) translateY(12px); }
+    .polaroid:hover { z-index: 1; transform: translateY(-6px) rotate(0); box-shadow: 0 17px 36px rgba(44, 58, 73, .17); }
+    .polaroid img { display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; background: var(--blue-pale); }
+    .polaroid:nth-child(2) img { object-position: center 43%; }
+    .polaroid:nth-child(3) img { object-position: center 42%; }
+    .polaroid figcaption {
+      min-height: 59px;
+      display: grid;
+      place-items: center;
+      color: #536981;
+      font-family: var(--script);
+      font-size: 1.37rem;
+      text-align: center;
+    }
+    .afterword {
+      position: relative;
+      max-width: 790px;
+      margin: 87px auto 0;
+      padding: 33px clamp(22px, 5vw, 52px);
+      border: 1px solid #dce5eb;
+      background: rgba(237, 244, 249, .61);
+      text-align: center;
+    }
+    .afterword::before { position: absolute; top: -16px; left: 50%; padding: 2px 12px; transform: translateX(-50%); color: var(--rose); background: var(--ivory); content: "♡"; font-size: 1.3rem; }
+    .afterword p { margin: 0; font-family: var(--serif); font-size: clamp(1.09rem, 2vw, 1.32rem); line-height: 1.85; }
+    .signoff { margin-top: 25px; color: #657990; font-size: .95rem; line-height: 1.8; }
+    .signoff strong { display: block; margin-top: 5px; color: var(--ink); font-family: var(--script); font-size: 2.2rem; font-weight: 400; }
+    .postscript { margin: 17px auto 0; color: #78879a; font-family: var(--script); font-size: 1.35rem; line-height: 1.5; }
+    footer { padding: 58px 0 32px; color: #8994a1; font-family: var(--script); font-size: 1.35rem; text-align: center; }
+    .heart-float {
+      position: fixed;
+      z-index: 5;
+      bottom: -28px;
+      color: #91abc5;
+      pointer-events: none;
+      animation: float-away 5.8s ease-out forwards;
+    }
+    @keyframes letter-in { from { opacity: 0; transform: translateY(22px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes bouquet-arrive { from { opacity: 0; transform: translateY(12px) scale(.96); } to { opacity: 1; transform: translateY(0) scale(1); } }
+    @keyframes shimmer { 0%, 100% { opacity: .45; transform: scale(.85) rotate(-8deg); } 50% { opacity: 1; transform: scale(1.12) rotate(8deg); } }
+    @keyframes float-away { 0% { opacity: 0; transform: translateY(0) rotate(0); } 12% { opacity: .8; } 100% { opacity: 0; transform: translateY(-105vh) rotate(36deg); } }
+
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 30px, 570px); }
+      .topline { padding-top: 20px; font-size: .62rem; }
+      .hero { min-height: auto; grid-template-columns: 1fr; gap: 0; padding: 39px 27px 29px; text-align: center; }
+      .hero-copy { padding: 15px 0 0; }
+      .eyebrow { justify-content: center; }
+      h1 { margin: 0 auto; font-size: clamp(3.1rem, 13vw, 4.65rem); }
+      .hero-subtitle { margin-top: 17px; }
+      .hero-note { margin-top: 16px; }
+      .open-button { margin-top: 23px; }
+      .bouquet-wrap { min-height: 290px; margin-top: 0; }
+      .bouquet-wrap::before { width: min(270px, 74%); }
+      .bouquet-svg { width: min(290px, 88%); }
+      .hero-sticker { right: 3%; bottom: 5%; width: 73px; height: 73px; font-size: 1.12rem; }
+      .teddy-sticker { bottom: 5%; left: 2%; width: 65px; height: 70px; }
+      .sparkle-one { top: 13%; right: 9%; }
+      .sparkle-two { left: 7%; }
+      .scroll-cue { padding: 17px 0 43px; font-size: .64rem; }
+      .letter-paper { padding: 35px 24px; }
+      .letter-body { line-height: 1.9; }
+      .letter-divider { margin: 41px 0; }
+      .gallery-section { padding-top: 66px; }
+      .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 21px 17px; margin: 31px auto 0; max-width: 440px; }
+      .polaroid { padding: 8px 8px 0; }
+      .polaroid:nth-child(2), .polaroid:nth-child(4) { transform: rotate(1.5deg) translateY(9px); }
+      .polaroid:nth-child(3) { transform: rotate(-1.5deg); }
+      .polaroid figcaption { min-height: 52px; font-size: 1.24rem; }
+      .afterword { margin-top: 67px; }
+      footer { padding-top: 47px; }
+    }
+    @media (max-width: 380px) {
+      .page-shell { width: calc(100% - 22px); }
+      .hero { padding-right: 19px; padding-left: 19px; }
+      .hero-subtitle { font-size: 1rem; }
+      .open-button { width: 100%; padding: 0 14px; font-size: .84rem; }
+      .letter-paper { padding-right: 19px; padding-left: 19px; }
+      .photo-grid { gap: 17px 13px; }
+      .polaroid { padding: 7px 7px 0; }
+      .polaroid figcaption { font-size: 1.12rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+    }
+
+    :root {
+      --ink: #172a43;
+      --muted: #64748b;
+      --blue: #aac7df;
+      --blue-deep: #496d91;
+      --blue-pale: #eaf1f7;
+      --paper: #fffefa;
+      --ivory: #f5f3ee;
+      --line: #deddd7;
+      --rose: #bd7181;
+    }
+
+    html { scroll-padding-top: 30px; }
+    body {
+      background:
+        radial-gradient(ellipse at 9% 9%, rgba(196, 216, 233, .31), transparent 31rem),
+        radial-gradient(ellipse at 91% 60%, rgba(219, 205, 183, .2), transparent 29rem),
+        var(--ivory);
+    }
+    .page-shell { width: min(1080px, calc(100% - 44px)); }
+    .topline {
+      gap: 11px;
+      padding: 29px 0 19px;
+      color: #64748b;
+      font-size: .71rem;
+      letter-spacing: .18em;
+    }
+    .topline::before, .topline::after { width: 25px; background: #b8c2ca; }
+    .hero {
+      min-height: 590px;
+      grid-template-columns: 1fr .86fr;
+      gap: 16px;
+      padding: 64px clamp(35px, 7vw, 88px);
+      border: 0;
+      border-radius: 12px;
+      background:
+        radial-gradient(ellipse at 82% 55%, rgba(104, 139, 173, .25), transparent 40%),
+        radial-gradient(ellipse at 5% 95%, rgba(97, 122, 147, .2), transparent 36%),
+        linear-gradient(120deg, #14253d, #1d3451 65%, #243d5b);
+      box-shadow: 0 28px 75px rgba(24, 39, 57, .2);
+      color: #fffdf9;
+    }
+    .hero::after {
+      inset: 14px;
+      border: 1px solid rgba(226, 218, 198, .26);
+      border-radius: 5px;
+    }
+    .hero-copy { padding: 22px 0; }
+    .eyebrow {
+      gap: 8px;
+      margin-bottom: 22px;
+      color: #a9c5df;
+      font-size: .69rem;
+      letter-spacing: .16em;
+      line-height: 1.65;
+    }
+    .hero h1 {
+      max-width: 555px;
+      font-size: clamp(3.35rem, 6.1vw, 5.3rem);
+      letter-spacing: -.045em;
+      line-height: 1.09;
+    }
+    .hero h1 span { color: #cadcf0; }
+    .hero-subtitle {
+      max-width: 430px;
+      margin-top: 20px;
+      color: #edf2f7;
+      font-family: var(--sans);
+      font-size: 1.08rem;
+      line-height: 1.8;
+    }
+    .hero-subtitle strong { color: #fffdf9; font-weight: 700; }
+    .hero-note { margin-top: 16px; color: #e2d5be; font-size: 1.72rem; }
+    .open-button {
+      min-height: 56px;
+      margin-top: 26px;
+      border: 1px solid rgba(255,255,255,.25);
+      border-radius: 5px;
+      color: #172a43;
+      background: #f4e8d2;
+      box-shadow: 0 10px 24px rgba(8, 18, 30, .2);
+      font-size: .95rem;
+    }
+    .open-button:hover { background: white; }
+    .open-button .button-heart { color: #a55369; }
+    .bouquet-wrap { min-height: 430px; }
+    .bouquet-wrap::before {
+      width: min(378px, 94%);
+      border-color: rgba(209, 224, 238, .32);
+      background: radial-gradient(circle, rgba(237, 244, 250, .13), rgba(226,238,247,.035) 69%, transparent 70%);
+    }
+    .bouquet-svg { width: min(390px, 104%); filter: drop-shadow(0 19px 24px rgba(5, 15, 27, .32)); }
+    .bouquet-sparkle { color: #ead9b9; }
+    .hero-sticker {
+      border-color: rgba(230, 223, 208, .7);
+      color: #536d86;
+      background: #fffaf0;
+    }
+    .teddy-sticker { border-color: #e3dccf; background: #fffaf0; }
+    .scroll-cue {
+      padding: 24px 0 62px;
+      color: #607087;
+      font-size: .73rem;
+      font-weight: 600;
+      letter-spacing: .14em;
+    }
+    .section-heading { margin-bottom: 34px; }
+    .section-heading .eyebrow {
+      margin-bottom: 13px;
+      color: #55799b;
+      letter-spacing: .13em;
+    }
+    h2 { color: #1b304a; font-size: clamp(2.15rem, 4vw, 3.2rem); }
+    .heading-flourish { color: #9c7182; }
+    .letter-paper {
+      width: min(820px, 100%);
+      padding: clamp(32px, 6vw, 65px) clamp(27px, 8vw, 86px);
+      border-color: #e2dfd7;
+      border-radius: 7px;
+      background:
+        linear-gradient(90deg, transparent 0, transparent 41px, rgba(195, 139, 143, .10) 42px, transparent 43px),
+        repeating-linear-gradient(to bottom, transparent 0, transparent 39px, rgba(155, 183, 205, .15) 40px),
+        #fffefa;
+      box-shadow: 0 17px 50px rgba(50, 66, 83, .075);
+    }
+    .letter-body { color: #273c56; font-size: clamp(1.02rem, 1.4vw, 1.11rem); line-height: 1.94; }
+    .letter-body p { margin-bottom: 23px; }
+    .letter-body .salutation { color: #486f92; font-size: 1.9rem; }
+    .english-letter .letter-body { font-family: var(--sans); font-size: clamp(1.04rem, 1.5vw, 1.12rem); line-height: 1.95; }
+    .gallery-section { padding-top: 88px; }
+    .gallery-intro { color: #5e6f84; font-size: 1rem; line-height: 1.7; }
+    .photo-grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 24px;
+      margin-top: 39px;
+    }
+    .photo-card {
+      display: block;
+      width: 100%;
+      min-width: 0;
+      padding: 10px 10px 17px;
+      overflow: hidden;
+      border: 1px solid #e6e1d7;
+      border-radius: 7px;
+      color: var(--ink);
+      background: #fffefa;
+      box-shadow: 0 9px 24px rgba(44, 58, 73, .075);
+      cursor: pointer;
+      text-align: left;
+      transition: transform .24s ease, box-shadow .24s ease, border-color .24s ease;
+    }
+    .photo-card:nth-child(3n + 2) { transform: translateY(13px); }
+    .photo-card:hover { z-index: 1; transform: translateY(-4px); border-color: #b8cbdc; box-shadow: 0 16px 34px rgba(44, 58, 73, .14); }
+    .photo-card:nth-child(3n + 2):hover { transform: translateY(8px); }
+    .photo-card:focus-visible { outline: 3px solid #7396b7; outline-offset: 4px; }
+    .photo-image-wrap { position: relative; display: block; overflow: hidden; border-radius: 3px; background: #e9eef2; }
+    .photo-image-wrap img {
+      display: block;
+      width: 100%;
+      height: 254px;
+      object-fit: cover;
+      transition: transform .5s ease;
+    }
+    .photo-card:hover .photo-image-wrap img { transform: scale(1.035); }
+    .photo-card:nth-child(3) .photo-image-wrap img { object-position: center 38%; }
+    .photo-card:nth-child(5) .photo-image-wrap img { object-position: center 35%; }
+    .photo-card:nth-child(6) .photo-image-wrap img { object-position: center 34%; }
+    .frame-stamp {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px 8px;
+      border: 1px solid rgba(255,255,255,.55);
+      border-radius: 2px;
+      color: white;
+      background: rgba(19, 34, 52, .66);
+      font-size: .59rem;
+      font-weight: 700;
+      letter-spacing: .13em;
+    }
+    .peek-icon {
+      position: absolute;
+      right: 10px;
+      bottom: 10px;
+      display: grid;
+      width: 34px;
+      height: 34px;
+      place-items: center;
+      border: 1px solid rgba(255,255,255,.7);
+      border-radius: 50%;
+      color: #203851;
+      background: rgba(255, 254, 250, .93);
+      font-size: 1.1rem;
+    }
+    .photo-title { display: block; margin: 15px 4px 5px; font-family: var(--serif); font-size: 1.22rem; line-height: 1.35; }
+    .photo-teaser { display: block; min-height: 46px; margin: 0 4px; color: #586980; font-size: .87rem; line-height: 1.65; }
+    .card-action { display: block; margin: 13px 4px 0; color: #577998; font-size: .76rem; font-weight: 700; letter-spacing: .025em; }
+    .gallery-section .section-heading .eyebrow { justify-content: center; }
+    .gallery-section .photo-grid { max-width: 990px; margin-right: auto; margin-left: auto; }
+    .photo-dialog {
+      width: min(820px, calc(100% - 30px));
+      max-width: none;
+      max-height: min(88vh, 790px);
+      padding: 0;
+      overflow: auto;
+      border: 1px solid rgba(238, 231, 218, .8);
+      border-radius: 10px;
+      color: var(--ink);
+      background: #fffefa;
+      box-shadow: 0 28px 90px rgba(8, 16, 29, .3);
+    }
+    .photo-dialog::backdrop { background: rgba(12, 24, 39, .76); backdrop-filter: blur(7px); }
+    .dialog-layout { display: grid; min-height: 430px; grid-template-columns: 1.02fr .98fr; }
+    .dialog-photo-wrap { min-height: 430px; overflow: hidden; background: #e9edf0; }
+    .dialog-photo { display: block; width: 100%; height: 100%; min-height: 430px; object-fit: cover; }
+    .dialog-copy { position: relative; display: flex; flex-direction: column; justify-content: center; padding: 46px 39px 38px; }
+    .dialog-close {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      display: grid;
+      width: 40px;
+      height: 40px;
+      place-items: center;
+      border: 1px solid #e3e1da;
+      border-radius: 50%;
+      color: #263d57;
+      background: white;
+      cursor: pointer;
+      font-size: 1.35rem;
+      transition: background .2s ease, transform .2s ease;
+    }
+    .dialog-close:hover { transform: rotate(90deg); background: #edf3f7; }
+    .dialog-close:focus-visible { outline: 3px solid #7396b7; outline-offset: 3px; }
+    .dialog-kicker { margin: 0 0 14px; color: #5a7a98; font-size: .68rem; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    .dialog-title { max-width: 300px; margin: 0; padding-right: 4px; font-size: clamp(1.9rem, 4vw, 2.7rem); }
+    .dialog-flourish { margin: 15px 0; color: #ad7484; }
+    .dialog-note { margin: 0; color: #374c65; font-size: 1.02rem; line-height: 1.9; }
+    .dialog-signature { margin: 22px 0 0; color: #5b7a99; font-family: var(--script); font-size: 1.65rem; }
+    .letter-divider { margin: 53px 0; }
+    .afterword {
+      margin-top: 88px;
+      border-color: #d7e1e9;
+      border-radius: 6px;
+      background: rgba(232, 240, 247, .6);
+    }
+    .afterword p { color: #263c55; }
+    .postscript { color: #586e83; }
+    footer { color: #68798c; }
+    @media (max-width: 760px) {
+      .page-shell { width: min(100% - 28px, 570px); }
+      .topline { padding-top: 20px; font-size: .64rem; }
+      .hero {
+        min-height: auto;
+        grid-template-columns: 1fr;
+        gap: 0;
+        padding: 43px 24px 22px;
+        border-radius: 9px;
+      }
+      .hero-copy { padding: 8px 0 0; }
+      .hero .eyebrow { margin-bottom: 18px; font-size: .62rem; }
+      .hero h1 { font-size: clamp(3rem, 12vw, 4.45rem); }
+      .hero-subtitle { max-width: 100%; margin-top: 16px; font-size: 1rem; }
+      .hero-note { margin-top: 13px; font-size: 1.55rem; }
+      .open-button { margin-top: 21px; }
+      .bouquet-wrap { min-height: 280px; margin-top: 3px; }
+      .bouquet-wrap::before { width: min(270px, 74%); }
+      .bouquet-svg { width: min(285px, 88%); }
+      .hero-sticker { right: 3%; bottom: 5%; width: 69px; height: 69px; font-size: 1.03rem; }
+      .teddy-sticker { bottom: 5%; left: 2%; width: 62px; height: 68px; }
+      .scroll-cue { padding: 20px 0 47px; font-size: .64rem; }
+      .section-heading { margin-bottom: 27px; }
+      h2 { font-size: clamp(2rem, 8vw, 2.7rem); }
+      .letter-paper {
+        padding: 35px 24px;
+        background:
+          repeating-linear-gradient(to bottom, transparent 0, transparent 39px, rgba(155, 183, 205, .15) 40px),
+          #fffefa;
+      }
+      .letter-body { font-size: 1rem; line-height: 1.88; }
+      .english-letter .letter-body { font-size: 1rem; }
+      .gallery-section { padding-top: 70px; }
+      .photo-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 17px; margin-top: 31px; }
+      .photo-card { padding: 7px 7px 13px; }
+      .photo-card:nth-child(3n + 2) { transform: translateY(8px); }
+      .photo-card:hover, .photo-card:nth-child(3n + 2):hover { transform: translateY(-3px); }
+      .photo-image-wrap img { height: auto; aspect-ratio: 4 / 4.35; }
+      .photo-title { margin: 11px 3px 4px; font-size: 1.07rem; }
+      .photo-teaser { min-height: 0; margin: 0 3px; font-size: .81rem; line-height: 1.58; }
+      .card-action { margin: 11px 3px 0; font-size: .7rem; }
+      .dialog-layout { grid-template-columns: 1fr; }
+      .dialog-photo-wrap, .dialog-photo { min-height: 0; height: min(46vh, 390px); }
+      .dialog-copy { min-height: 260px; padding: 27px 25px 29px; }
+      .dialog-title { max-width: calc(100% - 29px); font-size: 2rem; }
+      .dialog-note { font-size: .98rem; line-height: 1.78; }
+      .dialog-signature { margin-top: 15px; }
+      .afterword { margin-top: 68px; }
+      footer { padding-top: 43px; }
+    }
+    @media (max-width: 380px) {
+      .page-shell { width: calc(100% - 22px); }
+      .hero { padding-right: 19px; padding-left: 19px; }
+      .hero h1 { font-size: 2.85rem; }
+      .hero-subtitle { font-size: .95rem; }
+      .open-button { width: 100%; padding: 0 13px; font-size: .87rem; }
+      .letter-paper { padding-right: 20px; padding-left: 20px; }
+      .photo-grid { gap: 13px; }
+      .photo-title { font-size: .98rem; }
+      .photo-teaser { font-size: .77rem; }
+      .frame-stamp { top: 7px; left: 7px; padding: 4px 6px; font-size: .51rem; }
+      .dialog-copy { padding-right: 20px; padding-left: 20px; }
+    }
+    .page-footer {
+      position: relative;
+      margin: 53px auto 28px;
+      padding: clamp(29px, 6vw, 55px);
+      border: 1px solid #d5dfe8;
+      border-radius: 7px;
+      background: rgba(232, 240, 247, .69);
+      box-shadow: 0 12px 34px rgba(38, 57, 78, .06);
+      color: #293e57;
+      font-family: var(--sans);
+      font-size: 1rem;
+      line-height: 1.9;
+      text-align: left;
+    }
+    .page-footer::before {
+      position: absolute;
+      top: -13px;
+      left: 50%;
+      padding: 0 12px;
+      transform: translateX(-50%);
+      color: #a76b7d;
+      background: var(--ivory);
+      content: "THE LAST LITTLE NOTE";
+      font-family: var(--sans);
+      font-size: .63rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      white-space: nowrap;
+    }
+    .footer-title {
+      margin: 0 0 14px;
+      color: #203750;
+      font-family: var(--serif);
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      line-height: 1.35;
+      text-align: center;
+    }
+    .page-footer p { max-width: 720px; margin: 0 auto 15px; }
+    .page-footer .footer-birthday {
+      margin: 23px auto 0;
+      color: #203750;
+      font-family: var(--serif);
+      font-size: clamp(1.1rem, 2.4vw, 1.38rem);
+      text-align: center;
+    }
+    @media (max-width: 760px) {
+      .page-footer { margin-top: 40px; padding: 31px 23px; font-size: .96rem; }
+    }
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      max-width: 860px !important;
+      gap: 25px;
+      align-items: stretch;
+      margin: 35px auto 0 !important;
+    }
+    .photo-card,
+    .photo-card:nth-child(3n + 2) {
+      display: flex;
+      flex-direction: column;
+      align-self: stretch;
+      padding: 10px 10px 16px;
+      transform: none;
+      border-color: #e6e3dc;
+      border-radius: 9px;
+      background: rgba(255, 254, 250, .96);
+      box-shadow: 0 7px 22px rgba(37, 55, 74, .065);
+    }
+    .photo-card:hover,
+    .photo-card:nth-child(3n + 2):hover {
+      transform: translateY(-4px);
+      border-color: #bbccda;
+      box-shadow: 0 14px 30px rgba(37, 55, 74, .12);
+    }
+    .photo-image-wrap {
+      flex: 0 0 auto;
+      aspect-ratio: 1 / .86;
+      border-radius: 5px;
+      background: #f0eee9;
+    }
+    .photo-image-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      transition: opacity .25s ease;
+    }
+    .photo-card:hover .photo-image-wrap img { transform: none; opacity: .94; }
+    .photo-card:nth-child(3) .photo-image-wrap img,
+    .photo-card:nth-child(5) .photo-image-wrap img,
+    .photo-card:nth-child(6) .photo-image-wrap img { object-position: center; }
+    .frame-stamp {
+      top: 9px;
+      left: 9px;
+      padding: 6px 9px;
+      border: 0;
+      border-radius: 3px;
+      background: rgba(20, 38, 58, .78);
+      font-size: .63rem;
+      letter-spacing: .11em;
+    }
+    .peek-icon {
+      right: 9px;
+      bottom: 9px;
+      width: 32px;
+      height: 32px;
+      color: #233b55;
+      box-shadow: 0 2px 9px rgba(18, 30, 42, .12);
+    }
+    .photo-title { margin: 14px 5px 5px; font-size: 1.18rem; line-height: 1.42; }
+    .photo-teaser { min-height: 0; margin: 0 5px; font-size: .91rem; line-height: 1.7; }
+    .card-action {
+      margin: auto 5px 0;
+      padding-top: 15px;
+      color: #4f7394;
+      font-size: .78rem;
+    }
+    .page-footer {
+      margin-top: 42px;
+      margin-bottom: 20px;
+      padding: clamp(29px, 5vw, 48px);
+      border-color: rgba(237, 228, 209, .28);
+      border-radius: 9px;
+      background: linear-gradient(140deg, #162943, #213a57);
+      box-shadow: 0 15px 40px rgba(20, 38, 58, .17);
+      color: #f5f2eb;
+      line-height: 1.95;
+    }
+    .page-footer::before { color: #ead9b9; background: var(--ivory); }
+    .page-footer p { max-width: 690px; color: #f1eee8; }
+    .page-footer p:last-child {
+      margin: 26px auto 0;
+      padding-top: 19px;
+      border-top: 1px solid rgba(232, 224, 209, .24);
+      color: #f3d9b4;
+      font-family: var(--serif);
+      font-size: clamp(1.13rem, 2.4vw, 1.34rem);
+      text-align: center;
+    }
+    @media (max-width: 760px) {
+      .photo-grid { gap: 16px; margin-top: 29px !important; }
+      .photo-card,
+      .photo-card:nth-child(3n + 2) { padding: 7px 7px 13px; }
+      .photo-image-wrap { aspect-ratio: 1 / 1; }
+      .photo-title { margin: 11px 3px 4px; font-size: 1.02rem; }
+      .photo-teaser { margin: 0 3px; font-size: .82rem; line-height: 1.6; }
+      .card-action { margin: auto 3px 0; padding-top: 12px; font-size: .7rem; }
+      .page-footer { margin-top: 34px; padding: 28px 22px; font-size: .96rem; }
+    }
+    @media (max-width: 380px) {
+      .photo-grid { gap: 12px; }
+      .photo-title { font-size: .96rem; }
+      .photo-teaser { font-size: .77rem; }
+      .frame-stamp { top: 7px; left: 7px; padding: 5px 7px; font-size: .54rem; }
+      .page-footer { padding: 27px 19px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-shell">
+    <div class="topline">A little birthday keepsake</div>
+
+    <section class="hero" aria-labelledby="birthday-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="tiny-heart">✦</span> The birthday edition · starring Shriyashi <span class="tiny-heart">✦</span></p>
+        <h1 id="birthday-title">Happy Birthday,<br><span>Babyyy ♡</span></h1>
+        <p class="hero-subtitle">To my favourite girl, <strong>Dear Shriyashi.</strong></p>
+        <p class="hero-subtitle">A tiny birthday mystery: how did one girl become the leading lady in all my favourite thoughts?</p>
+        <p class="hero-note">A little letter from your boy, Ashik ♡</p>
+        <button class="open-button" id="open-letter" type="button" aria-controls="birthday-letter" aria-expanded="false">
+          Unseal your birthday letter <span class="button-heart">♡</span>
+        </button>
+      </div>
+
+      <div class="bouquet-wrap" aria-label="An illustrated bouquet of white and powder-blue flowers" role="img">
+        <span class="bouquet-sparkle sparkle-one" aria-hidden="true">✦</span>
+        <span class="bouquet-sparkle sparkle-two" aria-hidden="true">✧</span>
+        <span class="bouquet-sparkle sparkle-three" aria-hidden="true">✦</span>
+        <div class="teddy-sticker" aria-hidden="true">
+          <svg viewBox="0 0 70 76" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17 18C7 16 5 5 13 4c7-1 11 4 12 10m18 4c10-2 12-13 4-14-7-1-11 4-12 10" fill="#e9ddcf" stroke="#ad9a87" stroke-width="2"/>
+            <circle cx="35" cy="27" r="20" fill="#f1e7db" stroke="#ad9a87" stroke-width="2"/>
+            <ellipse cx="35" cy="33" rx="11" ry="8" fill="#fff9f1"/>
+            <circle cx="28" cy="25" r="1.8" fill="#526177"/><circle cx="42" cy="25" r="1.8" fill="#526177"/>
+            <path d="M33 31q2-3 4 0l-2 2z" fill="#bd7181"/><path d="M35 33q-3 4-5 1m5-1q3 4 5 1" fill="none" stroke="#987d71" stroke-width="1.3" stroke-linecap="round"/>
+            <ellipse cx="35" cy="58" rx="16" ry="13" fill="#e9ddcf" stroke="#ad9a87" stroke-width="2"/>
+            <path d="M24 50q-10 2-9 12m31-12q10 2 9 12" fill="none" stroke="#ad9a87" stroke-width="5" stroke-linecap="round"/>
+            <path d="M32 43q3-4 6 0-3 5-6 0m3 0q-4-4-6-1 1 4 6 3m0-2q4-4 6-1-1 4-6 3" fill="#9db9d0" stroke="#809bb2" stroke-width="1"/>
+            <circle cx="22" cy="33" r="3" fill="#e6b6bd" opacity=".8"/><circle cx="48" cy="33" r="3" fill="#e6b6bd" opacity=".8"/>
+          </svg>
+        </div>
+        <svg class="bouquet-svg" viewBox="0 0 420 450" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <defs>
+            <linearGradient id="wrap" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f8f6f0"/><stop offset="1" stop-color="#dce8f1"/></linearGradient>
+            <linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#8ca995"/><stop offset="1" stop-color="#607f73"/></linearGradient>
+            <radialGradient id="whitePetal"><stop stop-color="#fff"/><stop offset="1" stop-color="#e7edf1"/></radialGradient>
+            <radialGradient id="bluePetal"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#acc8df"/></radialGradient>
+            <g id="rose-white">
+              <g fill="url(#whitePetal)" stroke="#d7e0e5" stroke-width="1.1">
+                <ellipse cy="-20" rx="11" ry="20"/><ellipse cy="-20" rx="11" ry="20" transform="rotate(45)"/>
+                <ellipse cy="-20" rx="11" ry="20" transform="rotate(90)"/><ellipse cy="-20" rx="11" ry="20" transform="rotate(135)"/>
+                <ellipse cy="-12" rx="8" ry="14" fill="#fafcff" transform="rotate(22)"/>
+              </g>
+              <circle r="6.5" fill="#dfcf9a"/><path d="M-3 0q3-5 6 0q-3 5-6 0" fill="#c6a96c"/>
+            </g>
+            <g id="rose-blue">
+              <g fill="url(#bluePetal)" stroke="#9ebad2" stroke-width="1">
+                <ellipse cy="-18" rx="10" ry="18"/><ellipse cy="-18" rx="10" ry="18" transform="rotate(45)"/>
+                <ellipse cy="-18" rx="10" ry="18" transform="rotate(90)"/><ellipse cy="-18" rx="10" ry="18" transform="rotate(135)"/>
+                <ellipse cy="-11" rx="7" ry="13" fill="#f8fbff" transform="rotate(20)"/>
+              </g>
+              <circle r="5.5" fill="#dfcf9a"/>
+            </g>
+          </defs>
+          <g fill="none" stroke="#718f7e" stroke-linecap="round" stroke-width="4">
+            <path d="M208 368Q164 260 111 144"/><path d="M209 370Q205 247 196 111"/><path d="M211 370Q245 246 302 151"/>
+            <path d="M207 367Q145 276 91 214"/><path d="M213 367Q280 275 337 212"/><path d="M210 367Q222 266 256 193"/>
+          </g>
+          <g fill="url(#leaf)" stroke="#718f7e" stroke-width="1">
+            <path d="M135 224q-40-26-44-65 41 12 55 54z"/><path d="M159 274q-39-10-55-41 38-1 63 27z"/>
+            <path d="M202 226q-31-31-22-70 31 23 34 58z"/><path d="M242 252q8-46 43-65 0 42-31 70z"/>
+            <path d="M270 294q23-37 63-39-16 37-52 50z"/><path d="M179 310q-41-7-61-39 40 1 69 25z"/>
+            <path d="M226 301q28-37 68-34-22 34-60 44z"/>
+          </g>
+          <g stroke="#d7e3eb" stroke-width="1.3">
+            <path d="M98 189l34 26M125 262l34 15M190 170l12 49M280 197l-29 40M314 267l-41 19" fill="none"/>
+          </g>
+          <g>
+            <use href="#rose-white" transform="translate(111 138) scale(1.03)"/>
+            <use href="#rose-blue" transform="translate(195 105) scale(1.04)"/>
+            <use href="#rose-white" transform="translate(304 146) scale(1.02)"/>
+            <use href="#rose-blue" transform="translate(89 207) scale(.88)"/>
+            <use href="#rose-white" transform="translate(339 205) scale(.91)"/>
+            <use href="#rose-blue" transform="translate(253 187) scale(.89)"/>
+            <use href="#rose-white" transform="translate(156 184) scale(.78)"/>
+            <use href="#rose-blue" transform="translate(279 225) scale(.75)"/>
+          </g>
+          <path d="M126 247Q204 280 293 241L249 367Q207 395 171 365Z" fill="url(#wrap)" stroke="#c6d3de" stroke-width="1.5"/>
+          <path d="M126 247Q208 285 293 241L278 285Q210 318 143 282Z" fill="#fdfcf8" stroke="#d3dce2" stroke-width="1.2"/>
+          <path d="M168 350Q205 367 253 347" fill="none" stroke="#fff" stroke-width="2" opacity=".8"/>
+          <g fill="#a5bdd2" stroke="#809db8" stroke-width="1">
+            <path d="M204 321Q169 292 160 321Q177 340 204 326Q221 346 244 323Q235 295 204 321Z"/>
+            <path d="M203 324Q194 358 183 385Q204 378 211 335Q220 371 238 382Q234 348 208 321Z"/>
+          </g>
+          <path d="M201 325Q211 330 222 324" fill="none" stroke="#d8e5ef" stroke-width="2"/>
+          <g fill="#d5aa86">
+            <circle cx="142" cy="177" r="3"/><circle cx="276" cy="168" r="3"/><circle cx="323" cy="175" r="2.5"/><circle cx="174" cy="137" r="2.5"/>
+          </g>
+          <g fill="#a6bdad">
+            <circle cx="147" cy="170" r="3"/><circle cx="270" cy="176" r="3"/><circle cx="329" cy="182" r="2.5"/><circle cx="179" cy="144" r="2.5"/>
+          </g>
+        </svg>
+        <div class="hero-sticker" aria-hidden="true">picked<br>with love<br><span>♡</span></div>
+      </div>
+    </section>
+
+    <div class="scroll-cue"><span>♡</span> a little note, just for you <span>♡</span></div>
+
+    <div class="letter-reveal" id="birthday-letter" aria-hidden="true">
+      <section class="personal-letter" aria-labelledby="personal-title">
+        <div class="section-heading">
+          <p class="eyebrow">From your boy, with all my heart</p>
+          <h2 id="personal-title">A letter for Dear Shriyashi</h2>
+          <div class="heading-flourish" aria-hidden="true">✧ &nbsp; ♡ &nbsp; ✧</div>
+        </div>
+        <article class="letter-paper letter-body">
+          <p class="salutation">Dear Shriyashi,</p>
+          <p>Hapyyy birthdayy babyyy! Aasha xa temro yo birthdayy yekdamm ramro jane xa. Saddhai yesari nai khusi hunuuu, face ma smile jahilee pani dekhna pammm.</p>
+          <p>Tara I'm a little bit sad because mailye real mai yetti bela teta bhayera timilai wish garnu payenaaa. Mailye realmai aahile yetti bela yek tight hugg dina payeeeee na. Tara pani chalo kuch nahi… hug baaki rahyo. Badi badi shehero mein aisi choti choti dooriyaan hoti rehte hainnn.</p>
+          <p>Happy birthday once againnn! Hope mailye deko letter kholi sakyeu holaaa, padhi ni sakyeu holaaa… huhahahahha. Iloveyouuusoomuchh sanuuuuu!</p>
+          <p>This Ashik is literally mad about youuuu, crazyyyyy about youuu. Sayedddddd I'll never be like thisssss. Babyyy, please keep choosing all these little us-moments with meee, husss!</p>
+          <p>I wanted to make a home together and call it ours. I wanted to make doh chotee chote baccheee. You know, shriyanshhhh… and oeee waittt, chori ko naam chai ke rakhneee?? Aabbb sharmawooo vii matt, batadenaaa… subhaa uthkar yo balakkk khussssh hojayegaaaaa.</p>
+          <p>Iloveeyouuu so muchhh mutuuuuu. I can't wait to huggg youuu againnnnn, see youu againnn babyyyy. Imissyouu sooo muchhh.</p>
+        </article>
+      </section>
+
+      <div class="letter-divider" aria-hidden="true">♡</div>
+
+      <section class="english-letter" aria-labelledby="english-title">
+        <div class="section-heading">
+          <p class="eyebrow">A few more things I wanted you to know</p>
+          <h2 id="english-title">A little something more,<br>from me to you…</h2>
+          <div class="heading-flourish" aria-hidden="true">✧ &nbsp; ♡ &nbsp; ✧</div>
+        </div>
+        <article class="letter-paper letter-body">
+          <p class="salutation">My dear Shriyashi,</p>
+          <p>Somehow, even ordinary days feel a little more special when you’re part of them. A message from you can brighten my day, your laughter stays in my mind, and just thinking of your smile makes me happy.</p>
+          <p>We’ve only had that one in-person meeting so far, and I’m grateful for it. There’s still so much I’d love to discover about you, slowly and naturally: your little habits, the dreams you carry, and all the tiny details that make you wonderfully you.</p>
+          <p>I hope I can be someone you can laugh with, trust, and count on—a person who listens, cheers for you, and makes the distance feel a little smaller. And yes, sometimes I imagine a home we can call ours, built one happy, silly little moment at a time.</p>
+          <p>I’m looking forward to more meet-ups, long conversations, warm hugs, and all the memories we haven’t made yet. I really wish I could be beside you today, bring you a real bouquet, and hold you in the tightest hug.</p>
+          <p>For now, I hope this little letter feels like a bit of that closeness. I hope life keeps giving you reasons to feel happy, and that your beautiful smile never runs out of reasons to show up.</p>
+          <p>Happy birthday, my favourite girl. I’m so glad I get to know you.</p>
+          <p class="signature">With all my love,<strong>Your boy, Ashik ♡</strong></p>
+        </article>
+      </section>
+
+      <section class="gallery-section" aria-labelledby="gallery-title">
+        <div class="section-heading">
+          <p class="eyebrow">A tiny collection of very important clues</p>
+          <h2 id="gallery-title">The Shriyashi files</h2>
+          <p class="gallery-intro">Tap a photo for a little note, hidden just for you.</p>
+        </div>
+        <div class="photo-grid">
+          <button class="photo-card" type="button" data-title="Okayyy, this is my favourite" data-note="Wauuu, this is my favvv pic ahahhaa. Herana, we look kasto cute kissing haiii? The flowers are lovely and all, but I keep zooming in on our little kisshh. Chupaa, I might just keep this one to myself so I can smile at it whenever I miss youuu." aria-haspopup="dialog">
+            <span class="photo-image-wrap"><img src="birthday-photos/you-and-me.png" alt="Ashik and Shriyashi kissing in a mirror selfie with a bouquet" loading="lazy"><span class="frame-stamp">CLUE NO. 01</span><span class="peek-icon" aria-hidden="true">↗</span></span>
+            <span class="photo-title">Okayyy, this is my favourite</span>
+            <span class="photo-teaser">Wauu, that kissss. I still get shy looking at this one.</span>
+            <span class="card-action">Open this little memory &rarr;</span>
+          </button>
+          <button class="photo-card" type="button" data-title="My dream girl, right there" data-note="When I see youuu, I always see my dream girl. Those mesmerising eyes—herdai herdai dubamm dubamm jasto lagchha. Aarey, dubisake maaa. Oeee, tyo aankha herda ta padhdai pani kati gahiroo dekhchhu. How am I meant to look away, huhhh?" aria-haspopup="dialog">
+            <span class="photo-image-wrap"><img src="birthday-photos/my-pretty-girl.png" alt="A close-up portrait of Shriyashi and her captivating eyes" loading="lazy"><span class="frame-stamp">CLUE NO. 02</span><span class="peek-icon" aria-hidden="true">↗</span></span>
+            <span class="photo-title">My dream girl, right there</span>
+            <span class="photo-teaser">One look at those eyes and—dubamm. I’m goneee.</span>
+            <span class="card-action">Open this little memory &rarr;</span>
+          </button>
+          <button class="photo-card" type="button" data-title="The day I time-travelled" data-note="The day you sent me your cute lil baby piccc, my whole body was ready to time-travelll. I went straight into my imagination—back to little Shriyashiii, and guess what I saw? Amamamamama, the beauty! The cutie pie! The whole world before this boy even knew what a lucky guy he’d becomeee. Kasto achamma lagla hai, if I could go back and meet baby-you. I’d probably just go, ‘wauuuuu.’ Iloveeyoubabyyyy." aria-haspopup="dialog">
+            <span class="photo-image-wrap"><img src="birthday-photos/little-cutie.png" alt="A childhood photograph of Shriyashi as a baby" loading="lazy"><span class="frame-stamp">CLUE NO. 03</span><span class="peek-icon" aria-hidden="true">↗</span></span>
+            <span class="photo-title">The day I time-travelled</span>
+            <span class="photo-teaser">One baby photo and Ashik has entered his imagination era.</span>
+            <span class="card-action">Open this little memory &rarr;</span>
+          </button>
+          <button class="photo-card" type="button" data-title="One meeting, on repeat" data-note="We've only met once in person, but that one little memory has a reserved seat in my head. I keep thinking about how lovely it was to be right there with you. Director's note for the sequel: more talking, more laughing, one very overdue tight hug." aria-haspopup="dialog">
+            <span class="photo-image-wrap"><img src="birthday-photos/more-memories.png" alt="Ashik and Shriyashi smiling together in a mirror selfie" loading="lazy"><span class="frame-stamp">CLUE NO. 04</span><span class="peek-icon" aria-hidden="true">↗</span></span>
+            <span class="photo-title">One meeting, on repeat</span>
+            <span class="photo-teaser">A little memory my heart likes to replay.</span>
+            <span class="card-action">Open this little memory &rarr;</span>
+          </button>
+        </div>
+      </section>
+
+      <dialog class="photo-dialog" id="photo-dialog" aria-labelledby="dialog-title">
+        <div class="dialog-layout">
+          <div class="dialog-photo-wrap">
+            <img class="dialog-photo" id="dialog-photo" alt="">
+          </div>
+          <div class="dialog-copy">
+            <button class="dialog-close" id="dialog-close" type="button" aria-label="Close photo note">×</button>
+            <p class="dialog-kicker">A little note, hidden in this frame</p>
+            <h2 class="dialog-title" id="dialog-title"></h2>
+            <div class="dialog-flourish" aria-hidden="true">✦ &nbsp; ♡ &nbsp; ✦</div>
+            <p class="dialog-note" id="dialog-note"></p>
+            <p class="dialog-signature">Filed under: hopelessly fond of you</p>
+          </div>
+        </div>
+      </dialog>
+
+      <section class="afterword" aria-label="Birthday wishes and signature">
+        <p>Once again, happpiest birthdayyyy babyyyy. May life be kind to you, may your dreams find their way to you, and may that pretty smile stay with you always.</p>
+        <div class="signoff">With all my love,<strong>Your boy, Ashik ♡</strong></div>
+        <p class="postscript">P.S. Your real-life bouquet and that pending tight hug are still on my list. Don't think I've forgotten. 🌷</p>
+      </section>
+      <footer class="page-footer">
+        <p>I knowww aahilee feelingss xainnaaa, aahile timi aarkai situation ma xau tyo ni i knowww. But remember, I alywas loveee youuu so muchh.</p>
+        <p>Kaile lage ki aaba I need a partner jaslai ma full dinxu jasto lageeee, you know k vannu ma. Tara I can't see you with other, kasamm mero mutuuu siringaa hunxaa sanu. Mero bata j thyo sabbai reall hooo, real hunexaa.</p>
+        <p>I menifesttt aslo ki temi sangai bihe garxu and I'll—haha, soryyyyy. And once again happy birthday babyyy ♡</p>
+      </footer>
+    </div>
+  </main>
+  <script>
+    const openButton = document.getElementById("open-letter");
+    const birthdayLetter = document.getElementById("birthday-letter");
+    const photoDialog = document.getElementById("photo-dialog");
+    const dialogPhoto = document.getElementById("dialog-photo");
+    const dialogTitle = document.getElementById("dialog-title");
+    const dialogNote = document.getElementById("dialog-note");
+
+    document.querySelectorAll(".photo-card").forEach((card) => {
+      card.addEventListener("click", () => {
+        const image = card.querySelector("img");
+        dialogPhoto.src = image.src;
+        dialogPhoto.alt = image.alt;
+        dialogTitle.textContent = card.dataset.title;
+        dialogNote.textContent = card.dataset.note;
+        photoDialog.showModal();
+      });
+    });
+
+    document.getElementById("dialog-close").addEventListener("click", () => {
+      photoDialog.close();
+    });
+
+    photoDialog.addEventListener("click", (event) => {
+      if (event.target === photoDialog) photoDialog.close();
+    });
+
+    openButton.addEventListener("click", () => {
+      if (birthdayLetter.classList.contains("is-open")) {
+        birthdayLetter.scrollIntoView({ behavior: "smooth", block: "start" });
+        return;
+      }
+
+      birthdayLetter.classList.add("is-open");
+      birthdayLetter.setAttribute("aria-hidden", "false");
+      openButton.setAttribute("aria-expanded", "true");
+      openButton.innerHTML = 'Your letter is open <span class="button-heart" aria-hidden="true">♡</span>';
+      window.setTimeout(() => {
+        birthdayLetter.scrollIntoView({ behavior: "smooth", block: "start" });
+      }, 120);
+      releaseHearts();
+    });
+
+    function releaseHearts() {
+      if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+      for (let index = 0; index < 12; index += 1) {
+        window.setTimeout(() => {
+          const heart = document.createElement("span");
+          heart.className = "heart-float";
+          heart.setAttribute("aria-hidden", "true");
+          heart.textContent = index % 3 === 0 ? "✦" : "♡";
+          heart.style.left = `${8 + Math.random() * 84}%`;
+          heart.style.fontSize = `${14 + Math.random() * 15}px`;
+          heart.style.animationDuration = `${4.5 + Math.random() * 2}s`;
+          document.body.appendChild(heart);
+          heart.addEventListener("animationend", () => heart.remove(), { once: true });
+        }, index * 115);
+      }
+    }
+  </script>
+</body>
+</html>
